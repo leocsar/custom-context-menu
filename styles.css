@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 250ms;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.popup {
+  position: fixed;
+
+  width: 500px;
+  height: 50px;
+  
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #111;
+  color: #f5f5f5;
+
+  border-radius: 8px;
+
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  
+}
+
+.hiddenDiv {
+  display: none;
+}
+
+.popup-option {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  outline: none;
+  border: none;
+  background-color: #f5f5f5;
+  color: #111
+}
+
+.po1 {
+  border-radius: 8px 0 0 8px;
+}
+
+.po2 {
+  border-radius: 0;
+}
+
+.po3 {
+  border-radius: 0 8px 8px 0;
+}
+
+
+.popup-option:hover {
+  cursor: pointer;
+  background-color: purple;
+  color: #f5f5f5;
+}
+
+.popup-option:active {
+  cursor: pointer;
+}
