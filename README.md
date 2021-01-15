@@ -4,6 +4,8 @@ Template de um menu de contexto customizável para substituir o padrão dos nave
 
 Desenvolvido em **HTML**, **CSS** e **JS** puro.
 
+[**Clique aqui**](https://leocsar.github.io/custom-context-menu/) para testar!
+
 ## :blue_book: Licença
 
 Em desenvolvimento. Lançado em 2020. Este projeto está sob a licença MIT.
