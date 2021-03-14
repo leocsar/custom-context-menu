@@ -19,21 +19,30 @@ window.onload = () => {
   });
   
   body.addEventListener('click', (e) => {
-  
     popup.style.display = 'none';
-  
   });
   
+  po3.style.color = '#34CB79';
+
   po1.onclick = () => {
-    alert('Opção 1');
+    body.style.backgroundColor = '#f5f5f5';
+    po1.style.color = '#34CB79';
+    po2.style.color = '#111';
+    po3.style.color = '#111';
   }
   
   po2.onclick = () => {
-    alert('Opção 2');
+    body.style.backgroundColor = '#333';
+    po1.style.color = '#111';
+    po2.style.color = '#34CB79';
+    po3.style.color = '#111';
   }
   
   po3.onclick = () => {
-    alert('Opção 3');
+    body.style.backgroundColor = '#111';
+    po1.style.color = '#111';
+    po2.style.color = '#111';
+    po3.style.color = '#34CB79';
   }
 }
 
